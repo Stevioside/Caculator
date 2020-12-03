@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:columnCount="4"
+    android:rowCount="7"
+    android:layout_marginBottom="8dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_height="93dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom|right"
+        android:inputType="numberDecimal"
+        android:text="0"
+        android:textSize="55sp"
+        android:background="@null"
+        android:focusable="false"/>
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="C"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_fac"
+        android:text="n!"
+        style="@style/btn_style"/>
+
+    <Button
+        android:id="@+id/btn_percent"
+        android:text="%"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_del"
+        android:text="←"
+        style="@style/btn_style"/>
+
+    <Button
+        android:id="@+id/btn_leftbra"
+        android:text="("
+        style="@style/btn_style"/>
+
+    <Button
+        android:id="@+id/btn_rightbra"
+        android:text=")"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_PandM"
+        android:text="+/-"
+        style="@style/btn_style"/>
+
+    <Button
+        android:id="@+id/btn_squ2"
+        android:text="√￣"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_sin"
+        android:text="sin"
+        android:textAllCaps="false"
+        style="@style/btn_style"/>
+
+    <Button
+        android:id="@+id/btn_cos"
+        android:text="cos"
+        android:textAllCaps="false"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_div"
+        android:text="÷"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_mul"
+        android:text="×"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_7"
+        android:text="7"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_8"
+        android:text="8"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_9"
+        android:text="9"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:text="-"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:text="4"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:text="5"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:text="6"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:text="+"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:text="1"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:text="2"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:text="3"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_equ"
+        android:layout_width="77dp"
+        android:layout_gravity="fill"
+        android:layout_rowSpan="2"
+        android:text="="
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:text="0"
+        style="@style/btn_style" />
+
+    <Button
+        android:id="@+id/btn_p"
+        android:text="."
+        style="@style/btn_style" />
+
+
+</GridLayout>
